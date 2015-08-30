@@ -1,2 +1,2 @@
-# cookieslicer
+# CookieSlicer
 IT'S COOKIE CATURDAY
