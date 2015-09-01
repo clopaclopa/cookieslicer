@@ -9,6 +9,11 @@ public class BackgroundChanger : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
+		//if (GlobalInfo.VRMission)
+		//{
+			//(GameObject.FindObjectOfType(typeof(Camera)) ).backgroundColor = Color.yellow;
+		//}
+
 		if (GlobalInfo.VRMission)
 		{
 			this.GetComponent<MeshRenderer>().material = VRMissionBGMaterial;

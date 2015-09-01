@@ -26,16 +26,7 @@ public class CookieScript : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
-		//Debug.Log("VR Mission: " + GlobalInfo.VRMission);
-		if (GlobalInfo.VRMission)
-		{
-			cam.backgroundColor = Color.yellow;
-		}
 
-		//underwearMeshRenderer = underwearObject.GetComponent<MeshRenderer>();
-
-		//ClickFrame.color = new Color(1,1,1,0);
-		//normalFrame.color = new Color(1,1,1,1);
 	}
 
 	public void Click()
